@@ -1,7 +1,7 @@
 import React from 'react';
 import {useFonts,Poppins_500Medium, Poppins_700Bold, Poppins_600SemiBold, Poppins_400Regular} from '@expo-google-fonts/poppins'
 import AppLoading from 'expo-app-loading';
-import { Neighborhood } from './src/pages/Neighborhood';
+import Routes from './src/routes'
 
 
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
     return <AppLoading/>
   }
   return ( 
- <Neighborhood/>
+   <Routes/>
   );
 }
 
